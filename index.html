@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Week Two: Class Two</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<h1 class="tc">HTML Form</h1>
+
+		<div class="mt-3">
+			<form action="" method="post">
+				<legend>
+					<p>User Info</p>
+
+					<ul>
+						<li class="mt-1">
+							<label for="name">Name: </label>
+							<input type="text" name="name" id="name" placeholder="Enter your name" required>
+						</li>
+
+						<li class="mt-1">
+							<label for="email">Email: </label>
+							<input type="email" name="email" id="email" placeholder="Enter your email" required>
+						</li>
+
+						<li class="mt-1">
+							<label for="age">Age: </label>
+							<input type="number" name="age" id="age" placeholder="Enter your age" required>
+
+						</li>
+
+						<li>
+							<label for="">Color: </label>
+							<input type="color">
+						</li>
+
+						<li>
+							<label for="">CV: </label>
+							<input type="file">
+						</li>
+
+						<li>
+							<label for="msg">Message:</label>
+							<textarea name="msg" id="msg" rows="10" cols="30"></textarea>
+						</li>
+					</ul>
+				</legend>
+
+				<legend class="mt-3">
+					<p>Users Choice</p>
+
+					<ul>
+						<li>
+							<label for="choice">
+								What do You want to learn
+								<input type="radio" name="choice" id="choice"> Fornt-End Developmet
+								<input type="radio" name="choice" id="choice"> Back-End Developmet
+								<input type="radio" name="choice" id="choice"> Full-Stack Developmet
+							</label>
+						</li>
+
+						<li class="mt-1">
+							<label for="lang_choice">
+								What language do You want to learn  
+								<input type="checkbox" name="choice" id="choice"> HTML
+								<input type="checkbox" name="choice" id="choice"> CSS
+								<input type="checkbox" name="choice" id="choice"> JavaScript
+								<input type="checkbox" name="choice" id="choice"> PHP
+								<input type="checkbox" name="choice" id="choice"> Python
+							</label>
+						</li>
+					</ul>
+				</legend>
+
+				<legend class="mt-3">
+					<p>Users Team Member</p>
+
+					<ul>
+						<li class="mt-2">
+							<label>How many members have you in your team</label>
+							<select name="member" id="members">
+								<option value="indivitual">Indivitual</option>
+								<option value="1">1 Person</option>
+								<option value="2">2 Person</option>
+								<option value="3">3 Person</option>
+								<option value="4">4 Person</option>
+							</select>
+						</li>
+
+						<li class="mt-1">
+							<input type="submit" value="Sign Up" name="submit_btn">
+						</li>
+					</ul>
+				</legend>
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
